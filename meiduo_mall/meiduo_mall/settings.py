@@ -144,3 +144,7 @@ CACHES = {
 }
 SESSION_ENGINE = "django.contrib.sessions.backends.cache"
 SESSION_CACHE_ALIAS = "session"
+
+# 指定本项目用户模型类
+AUTH_USER_MODEL = 'users.User'
+
